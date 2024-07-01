@@ -1,0 +1,100 @@
+<!-- 
+
+INSTRUCTIONS:
+- Using html and css, create the design we shared with you on Figma.
+
+WHAT WE EXPECT FROM YOU:
+- Your code should be scalable and maintainable.
+- Your code should be component-based.
+- Your code should support all modern browsers.
+- You are completely free to use the new css features.
+-->
+
+<!-- YOUR HTML STARTS HERE -->
+ 
+<link rel="stylesheet" href="style.css">
+<section class="plans__container">
+  <div class="plans">
+    <div class="plansHero">
+      <h1 class="plansHero__title">Simple, transparent pricing</h1>
+      <p class="plansHero__subtitle">No contracts. No suprise fees.</p>
+    </div>
+    <div class="planItem__container">
+      <!--free plan starts -->
+      <div class="planItem planItem--free">
+
+        <div class="card">
+          <div class="card__header">
+            <div class="card__icon symbol symbol--rounded"></div>
+            <h2>Standard</h2>
+          </div>
+          <div class="card__desc">We offer with this plan to be responsible for all your company's software issues, development, and maintenance, with a very competitive price per month.</div>
+        </div>
+
+        <div class="price">$500<span>/ month</span></div>
+
+        <ul class="featureList">
+          <li>Two support employee 24/7</li>
+          <li>Live analytics platform</li>
+          <li class="disabled">Chat support</li>
+          <li class="disabled">Mobile application</li>
+          <li class="disabled">Unlimited users</li>
+        </ul>
+
+        <a href="payment.html"><button class="button">Get Started</button></a>
+      </div>
+      <!--free plan ends -->
+
+      <!--pro plan starts -->
+      <div class="planItem planItem--pro">
+        <div class="card">
+          <div class="card__header">
+            <div class="card__icon symbol"></div>
+            <h2>Pro</h2>
+            <div class="card__label label">Best Value</div>
+          </div>
+          <div class="card__desc">We offer this plan to be responsible for all your company's software, along with hardware support too, at a very competitive price per month.</div>
+        </div>
+
+        <div class="price">$1000<span>/ month</span></div>
+
+        <ul class="featureList">
+          <li>Two support employee 24/7</li>
+          <li>Own live analytics platform</li>
+          <li>Chat support</li>
+          <li class="disabled">Mobile application</li>
+          <li class="disabled">Unlimited users</li>
+        </ul>
+
+        <a href="payment.html"><button class="button button--pink">Get Started</button></a>
+      </div>
+      <!--pro plan ends -->
+
+      <!--entp plan starts -->
+      <div class="planItem planItem--entp">
+        <div class="card">
+          <div class="card__header">
+            <div class="card__icon"></div>
+            <h2>Enterprise</h2>
+          </div>
+          <div class="card__desc">We offer this plan to be responsible for all your company's software, along with hardware support, and cyber security support at a high level of expert</div>
+        </div>
+
+        <div class="price">$3000</div>
+
+        <ul class="featureList">
+          <li>Two support employee 24/7</li>
+          <li>Own live analytics platform</li>
+          <li>cyber, chat support</li>
+          <li>Mobile application</li>
+          <li>Unlimited users</li>
+          <li>Customize Panel</li>
+        </ul>
+
+        <a href="payment.html"><button class="button button--white">Get Started</button></a>
+      </div>
+      <!--entp plan ends -->
+
+    </div>
+  </div>
+</section>
